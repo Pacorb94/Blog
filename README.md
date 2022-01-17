@@ -1,11 +1,9 @@
 ## Objetivo
-Reforzar mis conocimientos de JavaScript y jQuery.
+Aprender jQuery
 ## Descripción
-Blog que te permite navegar por distintas secciones. 
-- Hay un falso login con localStorage.
-- Los posts son estáticos, es decir, no puedes crear más a no ser que
-  edites el archivo posts.json.
-- Hay un cambiador de temas, es decir, puedes seleccionar el fondo de la aplicación web.
-- Hay un slider.
+Aplicación la cual es un blog que te permite navegar por distintas secciones, ver posts, puedes
+iniciar sesión (sin bbdd) y cambiar el tema de la aplicación.  
+
+
 ## Licencia
 MIT
