@@ -1,0 +1,15 @@
+version: '3.5'
+
+services:
+
+    blog-deploy:
+        #Podemos también construir la imagen nosotros con un archivo dockerfile
+        build: 
+            context: ./
+            dockerfile: nginx/dockerfile
+        container_name: blog
+        #Puertos (máquina host:contenedor)
+        ports:
+            - "8081:80"
+        #Se reiniciará el contenedor a menos que se pare manualmente
+        restart: always
