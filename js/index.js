@@ -82,7 +82,7 @@ function checkUserLoggedIn() {
         logout();
     } else {
         userNameSpan.text('¿Quién soy?');
-        userProfile.attr('src', '../assets/img/sinFotoPerfil.png');
+        userProfile.attr('src', '../assets/img/sin-foto-perfil.png');
         form.show();
         $('#divLogout').hide();
         login();
